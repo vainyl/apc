@@ -15,8 +15,8 @@
     "require": {
         "php": ">=7.1",
         "ext-apcu": "*",
-        "vainyl/core": "dev-master",
-        "vainyl/cache": "dev-master"
+        "vainyl/core": "0.2.x-dev",
+        "vainyl/cache": "0.2.x-dev"
     },
     "repositories": [
         {
@@ -27,7 +27,7 @@
     "provide": {
         "psr/container": "1.0.0",
         "psr/simple-cache": "1.0.0",
-        "vain/cache": "dev-master"
+        "vain/cache": "^0.2"
     },
     "prefer-stable": true,
     "minimum-stability": "dev"
