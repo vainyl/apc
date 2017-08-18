@@ -1,0 +1,29 @@
+{
+    "name": "vainyl/apcu-bridge",
+    "type": "shared-package",
+    "authors": [
+        {
+            "name": "Taras Girnyk",
+            "email": "taras.p.gyrnik@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vainyl\\Apcu\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1",
+        "ext-apcu": "*",
+        "vainyl/core": "dev-master",
+        "vainyl/cache": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.vainyl.com:444"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
