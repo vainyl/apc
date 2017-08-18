@@ -15,8 +15,8 @@
     "require": {
         "php": ">=7.1",
         "ext-apcu": "*",
-        "vainyl/core": "dev-0.1.x",
-        "vainyl/cache": "dev-0.1.x"
+        "vainyl/core": "0.1.x-dev",
+        "vainyl/cache": "0.1.x-dev"
     },
     "repositories": [
         {
